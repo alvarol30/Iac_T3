@@ -6,3 +6,11 @@ variable "web_server_port" {
     qa  = 5001
   }
 }
+variable "api_server_port" {
+  type = map(number)
+
+  default = {
+    dev = 4002
+    qa  = 5002
+  }
+}
