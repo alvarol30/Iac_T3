@@ -9,4 +9,9 @@ resource "docker_container" "api" {
     internal = 3000
     external = var.api_server_port[terraform.workspace]
   }
+  command = [
+    "sh",
+    "-c",
+    "while true; do sleep 3600; done"
+  ]
 }
