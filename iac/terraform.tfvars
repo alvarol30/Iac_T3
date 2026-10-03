@@ -6,3 +6,7 @@ api_server_port = {
   dev = 4002
   qa  = 5002
 }
+db_server_port = {
+  dev = 4003
+  qa  = 5003
+}
