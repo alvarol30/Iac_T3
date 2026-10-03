@@ -14,7 +14,7 @@ variable "api_server_port" {
     qa  = 5002
   }
 }
-variable "db_server_port" {
+variable "bd_server_port" {
   type = map(number)
 
   default = {
