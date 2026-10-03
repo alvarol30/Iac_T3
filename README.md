@@ -34,4 +34,3 @@ iac/
 ├── web-server.tf
 ├── backend.tf
 ├── database.tf
-└── network.tf
